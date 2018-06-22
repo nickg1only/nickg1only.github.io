@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nikhil Raj Garg's Github Page</title>
+    <title>Nikhil Raj Garg</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -22,26 +22,32 @@
         text-align: center;
       }
     </style>
-  </head>
-  <body>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
+
+    <script>
+      //Make all hyperlinks open in a new tab or window
+      $(document).ready(function(){
+        $("a").attr("target", "_blank");
+      });
+    </script>
+  </head>
+  <body>
+
     <div id="intro">
       <h1>Hi, I'm Nikhil.</h1>
+      <h1> <small>Here is what I look like:</small></h1>
+      <img src="Nikhil_crop2.jpg" alt="This would have been a picture of me" width="150px" height="150px"/>
       <h1> <small>Here is my homepage: </small></h1>
       <a id="github" href="https://www.github.com/nikkig1only">GitHub - nikkig1only</a>
     </div>
     <div id="projects">
       <h1> <small>Here are some links to my projects:</small></h1>
-      <a id="p1" href="RockPaperScissorsRope---Original">Rock Paper Scissors Rope</a>
+      <a id="p1" href="https://nikkig1only.github.io/RockPaperScissorsRope---Original">Rock Paper Scissors Rope</a>
     </div>
-
-    <script>
-      document.getElementById("projects").a.target = "_blank";
-    </script>
   </body>
 </html>
