@@ -20,6 +20,15 @@
     <style media="screen">
       body {
         text-align: center;
+        background-image: url(diagonal_bricks.jpg);
+        background-repeat: repeat;
+      }
+      a {
+        font-weight: bold;
+        font-size: 20px;
+      }
+      #projects > a {
+        color: red;
       }
     </style>
 
@@ -30,9 +39,9 @@
 
 
     <script>
-      //Make all hyperlinks open in a new tab or window
+      //jQuery
       $(document).ready(function(){
-        $("a").attr("target", "_blank");
+        $("a").attr("target", "_blank"); //All hyperlinks will open in a new tab or window
       });
     </script>
   </head>
@@ -40,14 +49,14 @@
 
     <div id="intro">
       <h1>Hi, I'm Nikhil.</h1>
-      <h1> <small>Here is what I look like:</small></h1>
+      <h1> <small>This is what I look like:</small></h1>
       <img src="Nikhil_crop2.jpg" alt="This would have been a picture of me" width="150px" height="150px"/>
-      <h1> <small>Here is my homepage: </small></h1>
-      <a id="github" href="https://www.github.com/nikkig1only">GitHub - nikkig1only</a>
+      <h2>Here is my Github: </h2>
+      <a id="github" href="https://www.github.com/nikkig1only" style="color: violet"> nikkig1only </a>
     </div>
     <div id="projects">
-      <h1> <small>Here are some links to my projects:</small></h1>
-      <a id="p1" href="https://nikkig1only.github.io/RockPaperScissorsRope---Original">Rock Paper Scissors Rope</a>
+      <h2>Here are some links to my projects:</h2>
+      <a id="p1" href="https://nikkig1only.github.io/RockPaperScissors---Original">Rock Paper Scissors</a>
     </div>
   </body>
 </html>
